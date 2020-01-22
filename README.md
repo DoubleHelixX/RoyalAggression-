@@ -1,0 +1,2 @@
+# RoyalAggression-
+I had the idea of creating a fighting game website for a while now so naturally once I learned the skills to create such a thing I decided to do a sample site based on the theme "Fighting Game". It was also for a school project and in all actuality I done this site in 1 week. I stopped there because again its a sample site. A whole new site design might be a future project of mines with the same theme. Anyways hope you enjoy !
