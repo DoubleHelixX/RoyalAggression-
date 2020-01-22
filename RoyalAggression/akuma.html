@@ -1,0 +1,248 @@
+<html>
+<head>
+	<script  type="text/javascript">
+function playSound(soundfile) {
+	var audio = new Audio(soundfile);
+	audio.play();
+}
+function linkSound(soundfile, link) {
+	var audio = new Audio(soundfile);
+	audio.play();
+	setTimeout(function() {
+		location.href = link;
+	}, 500);
+}
+</script>
+
+
+
+
+<title>BlueRAI</title>
+<meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+   
+</head>
+<body>
+<span id="dummy"></span>
+     
+<div id="container">
+		
+<div id="backgroundryu">
+<center><img src="images/hadouken.gif" >  </center> 
+<iframe style="border:none" src="http://files.podsnack.com/iframe/embed.html?hash=a190x0we&t=1400028091" width="203" height="27" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	<h1>Royal </h1> <h1 style="margin-left:700px;magrin-top:150px;"> Aggression</h1>
+	
+	<div id="Navigation">
+		
+				<h3 style="margin-top:135px;"><span href="index.html" onclick="linkSound('coin.mp3', 'index.html');" onmouseover="playSound('1.mp3');">About</span> </h3>
+			<h3 style="margin-top:0px;"> <span href="video.html" onclick="linkSound('coin.mp3', 'video.html');" onmouseover="playSound('2.mp3');">Footage</span> </h3> 
+			<h3 style="margin-top:0px;"><span href="picture.html" onclick="linkSound('coin.mp3', 'picture.html');" onmouseover="playSound('3.mp3');">Art Gallery</span>  </h3>
+			<h3 style="margin-top:0px;"><span href="bio.html" onclick="linkSound('coin.mp3', 'bio.html');" onmouseover="playSound('4.mp3');">Characters</span>  </h3>
+			<h3 style="margin-top:0px;"><span  href="tier.html" onclick="linkSound('coin.mp3', 'tier.html');" onmouseover="playSound('5.mp3');"> Tier-List</span>  </h3>
+			<h3 style="margin-top:0px;"><span href="music.html" onclick="linkSound('coin.mp3', 'music.html');" onmouseover="playSound('6.mp3');">Music</span>  </h3>
+			<h3 style="margin-top:0px; margin-left:20px; font-family:'shockthick'; " >  <a style="color: gold" href="http://www.youtube.com/user/YogaFlame24/videos"> Youtube</a>  </h3>
+<h3 style="margin-top:0px; margin-left:9px; font-family:'shockthick'; "><a  style="color: gold" href="http://www.eventhubs.com" >EventHubs</a>  </h3>
+		</div>
+
+
+
+
+<div id="point1" STYLE="position:absolute;visibility:visible;">
+<!--Please delete this table and insert into your html elements-->
+<table style="margin-left:300px;" border="0" cellspacing="10" cellpadding="0">
+<tr>
+<td>
+<a href="bio.html">
+<img src="images/hadouken.gif" width=96 height=60 alt="" border="0">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<center><a href="bio.html">
+<h6><font size="5" color="#black">Character Select</font> </h6>
+</a></center>
+</td>
+</tr>
+</table>
+<!--End of the customizable area, please do not delete div the tag -->
+</div>
+
+
+<script LANGUAGE="JavaScript1.2">
+
+/*
+Floating image II (up down)- Bruce Anderson (http://appletlib.tripod.com)
+Submitted to Dynamicdrive.com to feature script in archive
+Modified by DD for script to function in NS6
+For 100's of FREE DHTML scripts, Visit http://www.dynamicdrive.com
+*/
+
+var XX=20; // X position of the scrolling objects
+var xstep=1;
+var delay_time=60;
+
+//Begin of the unchangable area, please do not modify this area
+var YY=0;  
+var ch=0;
+var oh=0;
+var yon=0;
+
+var ns4=document.layers?1:0
+var ie=document.all?1:0
+var ns6=document.getElementById&&!document.all?1:0
+
+if(ie){
+YY=document.body.clientHeight;
+point1.style.top=YY;
+}
+else if (ns4){
+YY=window.innerHeight;
+document.point1.pageY=YY;
+document.point1.visibility="hidden";
+}
+else if (ns6){
+YY=window.innerHeight
+document.getElementById('point1').style.top=YY
+}
+
+
+function reloc1()
+{
+
+if(yon==0){YY=YY-xstep;}
+else{YY=YY+xstep;}
+if (ie){
+ch=document.body.clientHeight;
+oh=point1.offsetHeight;
+}
+else if (ns4){
+ch=window.innerHeight;
+oh=document.point1.clip.height;
+}
+else if (ns6){
+ch=window.innerHeight
+oh=document.getElementById("point1").offsetHeight
+}
+    
+if(YY<0){yon=1;YY=0;}
+if(YY>=(ch-oh)){yon=0;YY=(ch-oh);}
+if(ie){
+point1.style.left=XX;
+point1.style.top=YY+document.body.scrollTop;
+}
+else if (ns4){
+document.point1.pageX=XX;
+document.point1.pageY=YY+window.pageYOffset;
+}
+else if (ns6){
+document.getElementById("point1").style.left=XX
+document.getElementById("point1").style.top=YY+window.pageYOffset
+}
+
+}
+
+function onad()
+{
+if(ns4)
+document.point1.visibility="visible";
+loopfunc();
+}
+function loopfunc()
+{
+reloc1();
+setTimeout('loopfunc()',delay_time);
+}
+
+if (ie||ns4||ns6)
+window.onload=onad
+
+</script>
+	  	
+
+	  	
+<div id="middleboxakuma">
+	<h4> BIOGRAPHY</h4>
+<p><b><font size=+10 face="Courier New,Courier" color="#FFFFFF">AKUMA </p> <p><font size=-1 face="Courier New,Courier" color="#FFFFFF">
+(known Gouki in Japan) trained under Goutetsu along with his brother, Gouken.
+Goutetsu taught them Ansatsuken (Assassin Fist), which is a mixture of
+karate, judo, and koppo. As the brothers progressed under Goutetsu's teachings,
+a dispute arose on the true nature of Ansatsuken and the path to master
+it. Gouken, unable to accept the violent nature of Ansatsuken, left Goutetsu
+to begin his own dojo. Akuma continued Goutetsu's teachings and vowed to
+use Ansatsuken as it was intended.</font></b>
+<p><b><font size=-1 face="Courier New,Courier" color="#FFFFFF">In
+order to learn Shun Goku Satsu, Akuma embraced the principle of Satsui
+no Hadou or (The Surge of the Intent to Murder/Murderous Intent). Through
+Satsui no Hadou, Akuma was forced to give up any compassion he held towards
+other human beings. In addition, Akuma realized his limits as a martial
+artist could be expanded, and left Goutetsu's guidance to train alone on
+an island (Gokuento).</font></b>
+<p><b><font size=-1 face="Courier New,Courier" color="#FFFFFF">His
+return marked the end for Goutetsu... Akuma demonstrated his strength by
+killing his former master with Shun Goku Satsu. Goutetsu fell with an inner
+joy, realizing his pupil was attempting to master Ansatsuken. Akuma removed
+the beaded necklace from Goutetsu's neck and placed it around his own.
+The following day Akuma challenged and fought his brother. With Gouken
+gaining the upper hand, Akuma was eventually struck down. Akuma requested
+death in defeat, however his brother was unable to kill his own kin. Akuma,
+sensing weakness, mocked Gouken and struck with Shun Goku Satsu. The dojo
+was filled with a burst of white light and Gouken was killed. Ken
+saw the flash as he was returning from the U.S. Martial Arts tournament.
+Rushing to the dojo to find it in shambles and his master dead, an enraged
+Ken ran into the surrounding woods searching for the killer. Akuma easily
+defeated Ken and disappeared. Gouken's other student Ryu
+soon learned of his master's death and began to search for Akuma.</font></b>
+<p><b><font size=-1 face="Courier New,Courier" color="#FFFFFF">Akuma
+first fought
+Ryu at his island, Gokuento,
+and discovered the potential within him. He destroyed the island and told
+Ryu to come back when he had embraced the killing intent. However, Ryu
+rejected it. Akuma now practices to be prepared for a battle with Ryu.
+He also killed
+Bison during the SF2 series, the only official result of that game.</font></b>
+<p><font size=-1 face="Courier New,Courier" color="#FFFFFF"><b>Akuma
+fights only to test his strength and his opponent's. This means that he
+will only fight opponents that will provide a challenge, hence his refusal
+to fight unworthy challengers under any circumstances. Akuma will only
+kill opponents who are as strong as he, which is why he stopped his fight
+with Gen after realizing that he was ill. While
+Akuma killed his brother and his teacher, he did so in the confines of
+the code of the warrior, where the field of battle does not distinguish
+between friend and foe. Akuma believes he committed no transgression whatsoever.
+Also, with the exception of Gouken and Goutetsu, Akuma usually only fights
+those who challenge him instead of picking fights.<br>
+<br>
+Other fun facts: The name "Akuma"
+means Devil or Demon in Japanese. The kanji on the back of his uniform is called
+ten. It can mean "sky," "heaven," or "beyond human. Akuma also has a few
+alternate, more powerful incarnations of himself including: Shin
+Akuma, Cyber Akuma and Oni
+Akuma. In addition, a powerful mech based on Akuma called Zero
+Akuma appears in the Capcom fighting game, <i>Cyberbots</i>.<br>
+</b>
+  <img SRC="images/akuma.jpg" BORDER=2 height=133 width=150>
+   <img SRC="images/akuma2.jpg" BORDER=2 height=133 width=150>
+    <img SRC="images/akuma3.jpg" BORDER=2 height=133 width=150>
+     <img SRC="images/akuma.gif" BORDER=2 height=133 width=150>
+	  	
+
+
+	  	</div>
+
+
+
+
+		
+		
+	
+         
+   </div>
+   </body>
+   
+   
+</html>
+
+
+
+

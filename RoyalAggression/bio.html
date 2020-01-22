@@ -1,0 +1,171 @@
+<html>
+<head>
+	 <script  type="text/javascript">
+function playSound(soundfile) {
+	var audio = new Audio(soundfile);
+	audio.play();
+}
+function linkSound(soundfile, link) {
+	var audio = new Audio(soundfile);
+	audio.play();
+	setTimeout(function() {
+		location.href = link;
+	}, 500);
+}
+</script>
+
+
+
+
+<title>BlueRAI</title>
+<meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+   
+</head>
+<body>
+<span id="dummy"></span>
+     
+<div id="container">
+		
+<div id="background">
+<center><img src="images/hadouken.gif" >  </center> 
+<iframe style="border:none" src="http://files.podsnack.com/iframe/embed.html?hash=a190x0we&t=1400028091" width="203" height="27" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+	<h1>Royal </h1> <h1 style="margin-left:700px;magrin-top:150px;"> Aggression</h1>
+	
+	<div id="Navigation">
+		
+			<h3 style="margin-top:135px;"><span href="index.html" onclick="linkSound('coin.mp3', 'index.html');" onmouseover="playSound('1.mp3');">About</span> </h3>
+			<h3 style="margin-top:0px;"> <span href="video.html" onclick="linkSound('coin.mp3', 'video.html');" onmouseover="playSound('2.mp3');">Footage</span> </h3> 
+			<h3 style="margin-top:0px;"><span href="picture.html" onclick="linkSound('coin.mp3', 'picture.html');" onmouseover="playSound('3.mp3');">Art Gallery</span>  </h3>
+			<h3 style="margin-top:0px;"><span href="bio.html" onclick="linkSound('coin.mp3', 'bio.html');" onmouseover="playSound('4.mp3');">Characters</span>  </h3>
+			<h3 style="margin-top:0px;"><span  href="tier.html" onclick="linkSound('coin.mp3', 'tier.html');" onmouseover="playSound('5.mp3');"> Tier-List</span>  </h3>
+			<h3 style="margin-top:0px;"><span href="music.html" onclick="linkSound('coin.mp3', 'music.html');" onmouseover="playSound('6.mp3');">Music</span>  </h3>
+		<h3 style="margin-top:0px; margin-left:20px; font-family:'shockthick'; " >  <a style="color: gold" href="http://www.youtube.com/user/YogaFlame24/videos"> Youtube</a>  </h3>
+<h3 style="margin-top:0px; margin-left:9px; font-family:'shockthick'; "><a  style="color: gold" href="http://www.eventhubs.com" >EventHubs</a>  </h3>
+
+		</div>
+
+
+	  	
+<div id="middlebox">
+
+
+ <img SRC="images/banner.jpg" BORDER=0 height=163 width=701></a>
+
+
+
+	<h4 style="margin-top:10px;"> <script language="JavaScript1.2">
+
+
+//Neon Lights Text II by G.P.F. (gpf@beta-cc.de)
+//visit http://www.beta-cc.de
+//Visit http://www.dynamicdrive.com for this script 
+
+var message="! CHOOSE YOUR CHARACTER !"
+var neonbasecolor="silver"
+var neontextcolor="white"
+var neontextcolor2="blue"
+var flashspeed=150						// speed of flashing in milliseconds
+var flashingletters=1						// number of letters flashing in neontextcolor
+var flashingletters2=27					// number of letters flashing in neontextcolor2 (0 to disable)
+var flashpause=900						// the pause between flash-cycles in milliseconds
+
+///No need to edit below this line/////
+
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+crossref(m).style.color=neonbasecolor
+}
+
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+
+if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2 
+if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor
+
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",flashpause)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script></h4>
+
+<img SRC="images/hugo.jpg" style="margin-left:480px; margin-top:60px;" BORDER=0 height=563 width=201></a>
+
+
+
+
+	<h2 style=" margin-top:-600px;"> STREET FIGHTER !</h2> 
+	<h5 style="margin-left:20px; margin-top:-36px;"> <a href="ryu.html"> Ryu</h5><a/>
+	 <h5 style="margin-left:20px; margin-top:-70px;"> <a href="akuma.html"> Akuma</h5><a/> 
+	 <h5 style="margin-left:140px; margin-top:-155px;"> <a href="Ken.html"> Ken</h5><a/> 
+	  <h5 style="margin-left:260px; margin-top:-113px;"> <a href="rose.html"> Rose</h5><a/> 
+	   <h5 style="margin-left:140px; margin-top:-65px;"> <a href="viper.html"> Viper</h5><a/> 
+	    <h5 style="margin-left:260px; margin-top:-112px;"> <a href="sakura.html"> Sakura</h5><a/> 
+
+
+	    <h2> TEKKEN !</h2> 
+	<h5 style="margin-left:20px; margin-top:-36px;"> <a href="eddy.html">  Eddy</h5><a/>
+	 <h5 style="margin-left:20px; margin-top:-70px;"> <a href="kuma.html"> Kuma</h5><a/> 
+	 <h5 style="margin-left:140px; margin-top:-155px;"> <a href="steve.html"> Steve</h5><a/> 
+	  <h5 style="margin-left:260px; margin-top:-113px;"> <a href="yoshimitsu.html"> Yoshimitsu</h5><a/> 
+	   <h5 style="margin-left:140px; margin-top:-65px;"> <a href="law.html"> Law</h5><a/> 
+	    <h5 style="margin-left:260px; margin-top:-112px;"> <a href="kazuya.html"> Kazuya</h5><a/> 
+
+	     <h2> BLAZE BLUE !</h2> 
+	<h5 style="margin-left:20px; margin-top:-36px;"> <a href="ragna.html">  Ragna </h5><a/>
+	 <h5 style="margin-left:20px; margin-top:-70px;"> <a href="nu.html"> Nu-13</h5><a/> 
+	 <h5 style="margin-left:140px; margin-top:-155px;"> <a href="hazama.html"> Hazama</h5><a/> 
+	  <h5 style="margin-left:300px; margin-top:-113px;"> <a href="bang.html"> Bang  </h5><a/> 
+	   <h5 style="margin-left:140px; margin-top:-70px;-65px;"> <a href="torakaka.html"> Torakaka</h5><a/> 
+	    <h5 style="margin-left:300px; margin-top:-112px;"> <a href="carl.html"> Carl</h5><a/> 
+	
+	
+	  	
+
+
+	  	</div>
+
+
+
+
+		
+		
+	
+         
+   </div>
+   </body>
+   
+   
+</html>

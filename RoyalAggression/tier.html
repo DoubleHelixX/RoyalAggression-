@@ -1,0 +1,165 @@
+
+<html>
+<head>
+
+
+	<script  type="text/javascript">
+function playSound(soundfile) {
+	var audio = new Audio(soundfile);
+	audio.play();
+}
+function linkSound(soundfile, link) {
+	var audio = new Audio(soundfile);
+	audio.play();
+	setTimeout(function() {
+		location.href = link;
+	}, 500);
+}
+</script>
+
+<!DOCTYPE HTML>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="animatedcollapse.js">
+</script>
+<script type="text/javascript">
+
+animatedcollapse.addDiv('jason', 'fade=1,height=250px')
+animatedcollapse.addDiv('kelly', 'fade=1,height=100px')
+animatedcollapse.addDiv('michael', 'fade=1,height=120px')
+
+animatedcollapse.addDiv('cat', 'fade=0,speed=400,group=pets')
+animatedcollapse.addDiv('dog', 'fade=0,speed=400,group=pets,persist=1,hide=1')
+animatedcollapse.addDiv('rabbit', 'fade=0,speed=400,group=pets,hide=1')
+
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+	//$: Access to jQuery
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+	//state: "block" or "none", depending on state
+}
+
+animatedcollapse.init()
+
+</script>
+
+
+<title>BlueRAI</title>
+<meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+   
+</head>
+<body>
+<span id="dummy"></span>
+     
+<div id="container">
+		
+<div id="backgroundtier">
+<center><img src="images/hadouken.gif" >  </center> 
+<iframe style="border:none" src="http://files.podsnack.com/iframe/embed.html?hash=a13ete62&t=1400028139" width="203" height="27" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+	<h1>Royal </h1> <h1 style="margin-left:700px;magrin-top:150px;"> Aggression</h1>
+	
+	<div id="Navigation">
+		
+			<h3 style="margin-top:135px;"><span href="index.html" onclick="linkSound('coin.mp3', 'index.html');" onmouseover="playSound('1.mp3');">About</span> </h3>
+			<h3 style="margin-top:0px;"> <span href="video.html" onclick="linkSound('coin.mp3', 'video.html');" onmouseover="playSound('2.mp3');">Footage</span> </h3> 
+			<h3 style="margin-top:0px;"><span href="picture.html" onclick="linkSound('coin.mp3', 'picture.html');" onmouseover="playSound('3.mp3');">Art Gallery</span>  </h3>
+			<h3 style="margin-top:0px;"><span href="bio.html" onclick="linkSound('coin.mp3', 'bio.html');" onmouseover="playSound('4.mp3');">Characters</span>  </h3>
+			<h3 style="margin-top:0px;"><span  href="tier.html" onclick="linkSound('coin.mp3', 'tier.html');" onmouseover="playSound('5.mp3');"> Tier-List</span>  </h3>
+			<h3 style="margin-top:0px;"><span href="music.html" onclick="linkSound('coin.mp3', 'music.html');" onmouseover="playSound('6.mp3');">Music</span>  </h3>
+		<h3 style="margin-top:0px; margin-left:20px; font-family:'shockthick'; " >  <a style="color: gold" href="http://www.youtube.com/user/YogaFlame24/videos"> Youtube</a>  </h3>
+<h3 style="margin-top:0px; margin-left:9px; font-family:'shockthick'; "><a  style="color: gold" href="http://www.eventhubs.com" >EventHubs</a>  </h3>
+		</div>
+
+
+	  	
+<div id="middleboxtier">
+	<h6> hijklmnpqrst </h6>
+	<h2> Tier List</h2>
+	  	
+
+	  	<b style="margin-left:250px;"><a  href="javascript:animatedcollapse.show(['jason', 'kelly', 'michael'])">SELECT ALL </a> |
+	  	 <a href="javascript:animatedcollapse.hide(['jason', 'kelly', 'michael'])">EXIT ALL </a></b>
+	  	 <br><br>
+
+
+<p><b style="margin-left:30px;">Ultra Street Fighter 4:</b></p>
+
+<a href="javascript:animatedcollapse.toggle('jason')"><img src="images/ultra.png" border="0" height=73 width=107 style="margin-left:20px;" /></a> <a href="javascript:animatedcollapse.hide('jason')">Select</a> || <a href="javascript:animatedcollapse.show('jason')">Start</a>
+
+<div id="jason" style=" height:900px; width: 350px; background: black; display:none">
+<p style="margin-left:15px;"><font color="#3399FF"> 
+Rank S <br>
+Sagat, Fei Long, Cammy
+<br>
+Rank A+ <br>
+Yun, Juri, Adon, Viper, Guy, Rolento
+<br>
+Rank A<br>
+Chun-Li, Rose, Yang, Evil Ryu, Boxer, Ibuki
+<br>
+Rank B+<br>
+Ryu, Akuma, Gouken, Hawk, Guile, Sakura
+<br>
+Rank B<br>
+Everyone else
+<br>
+Rank Z Warrior (Dragon Ball Z reference)
+Hugo<br>
+</p><br />
+</div>
+
+
+<p style="margin-left:60px; margin-top:80px;" ><b>Tekken 5</b></p>
+
+<a href="javascript:animatedcollapse.toggle('kelly')"><img src="images/tekkenlogo.jpg" border="0" height=110 width=107 style="margin-left:20px; margin-top:-10px;" /></a> <a href="javascript:animatedcollapse.hide('kelly')">Select</a> || <a href="javascript:animatedcollapse.show('kelly')">Start</a>
+
+<div id="kelly" style="width: 350px; height: 900px; background: black; display:none">
+<p style="margin-left:15px;"><font color="#3399FF"> <br>
+Rank S<br>
+
+Feng, Devil Jin, Heihachi, Bryan, Steve, Raven, Law<br>
+
+Rank A<br>
+
+Kazuya, Roger Jr., Hwoarang, Nina, Julia, Wang, Xiaoyu, Bruce<br>
+
+Rank B<br>
+
+Lei, Paul, Anna, Jack-5, King, Jin, Marduk, Christie/Eddy, Asuka, Ganryu, Yoshimitsu, Lee, Baek<br>
+
+Rank C<br>
+
+Kuma/Panda <br>
+</p><br />
+</div>
+
+
+<img SRC="images/xtekken.jpg" style="margin-left:440px; margin-top:-370px;" BORDER=0 height=733 width=250 >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  	</div>
+
+
+
+
+		
+		
+	
+         
+   </div>
+   </body>
+   
+   
+</html>

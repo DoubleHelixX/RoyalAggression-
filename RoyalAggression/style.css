@@ -1,0 +1,418 @@
+@import url(http://fonts.googleapis.com/css?family=Trade+Winds);
+@font-face {
+      font-family: "shockthick";
+      src: url("ShockThick.ttf");
+    }
+    @font-face {
+      font-family: "shock";
+      src: url("Shock.ttf");
+    }
+    @font-face {
+      font-family: "link";
+      src: url("links.ttf");
+    }
+@font-face {
+      font-family: "street";
+      src: url("streetfighter.ttf");
+    }
+
+    @font-face {
+      font-family: "frizzed";
+      src: url("frizzed.ttf");
+    }
+
+    @font-face {
+      font-family: "frizzed2";
+      src: url("frizzed2.ttf");
+    }
+
+     @font-face {
+      font-family: "aftermat";
+      src: url("aftermat.ttf");
+    }
+audio {
+	display:none;
+}
+
+h1{
+
+	font-family: 'shockthick','Trade Winds', cursive;
+	font-size:119px;
+	text-shadow:5px 5px 10px #3399FF;
+	color: white;
+	margin-left: 562px;
+	margin-top: -10px;
+	padding-top: 0px;
+	line-height: 50px;
+
+}
+
+#container {
+	width:1330px;
+	margin-top: 0 ;
+background-color:#152B8B;
+
+}
+
+
+
+#navigation {
+	width:200px;
+	height:1016px;
+	margin-left: 40;
+	margin-top: -320px;
+	border: 10px groove black;
+    border-bottom: 0px; 
+    background: -webkit-linear-gradient( right top, blue, black, #003264, #003264, #003264, #023D77,#023D77, #003264, #003264, #003264,black,#0E0075);
+	background: -moz-linear-gradient( bottom left , white, black, blue, blue, blue, blue,blue, blue, blue, blue,black,white);
+	background: -o-linear-gradient( bottom left , white, black, blue, blue, blue, blue,blue, blue, blue, blue,black,white);
+	background: -ms-linear-gradient( bottom left , white, black, blue, blue, blue, blue,blue, blue, blue, blue,black,white);
+}
+
+#navigation h3 {
+	color:white;
+	font-family: 'link','Trade Winds', cursive;
+	font-size:45px;
+	margin-left: 30px;
+	margin-top: 162px;
+	text-shadow:5px 5px 100px white;
+
+	
+	
+	}
+	
+#middlebox {
+	width:700px;
+	height:987px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, silver,black, black, black, black, black, black, black, black, black,black, black, black, black, black, black,black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+}
+
+#middleboxvideo {
+	width:700px;
+	height:987px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, silver,black, black, black, black, black, black, black, black, black,black, black, black, black, black, black,black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+}
+
+
+#middleboxindex {
+	width:700px;
+	height:1017px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, silver,black, black, black, black, black, black, black,  black, black, black, black,black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+}
+
+#middleboxmusic {
+	width:700px;
+	height:987px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, silver,black,black, black,black, black, black, black, black, black, black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+}
+
+
+#middleboxryu{	width:700px;
+	height:1716px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, white,black, black, black, black,black, black,black, black,black, black,black, black, black, black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);}
+
+
+#middleboxakuma {
+	width:700px;
+	height:1216px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, white,black, black, black, black,black,black,black,black, black, black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+}
+
+#middleboxtier {
+	width:700px;
+	height:1587px;
+	float:top;
+	margin-left: 500;
+	margin-top: -700px;
+	border: 10px groove #152B8B;
+    background: -webkit-linear-gradient( right top, blue, silver,black, black, black, black, black,black, black,black,black,black,black,black, black,black, black,black, black,black, black, black, black, black, black, black);
+	background: -moz-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -o-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+	background: -ms-linear-gradient( bottom left , white, black, black, blue, blue, blue,blue,blue,blue, blue, blue,black, black,white);
+}
+
+#middleboxtier h6{
+	font-family: 'street','Trade Winds', cursive;
+	font-size:49px;
+	text-shadow:5px 5px 10px black;
+	margin-left: 20px;
+	margin-top: 95px;
+	padding-top: 0px;
+	line-height: 0px;
+	color: blue;
+
+}
+span {
+	color:#2F7AC6;
+	text-shadow:5px 5px 10px black;
+	text-decoration: none;
+}
+
+span:link {
+	color:#2F7AC6;
+	text-shadow:5px 5px 10px black;
+	text-decoration: none;
+}
+
+
+span:visited {color:#2F7AC6;
+	text-shadow:5px 5px 10px black;
+text-decoration: none;
+}
+
+ span:hover {
+  color: white ;
+  text-decoration: none;
+  text-shadow:5px 5px 100px blue; 
+}
+
+a:link {
+	color:#2F7AC6;
+	text-shadow:5px 5px 10px black;
+	text-decoration: none;
+}
+
+
+a:visited {color:#2F7AC6;
+	text-shadow:5px 5px 10px black;
+text-decoration: none;
+}
+
+ a:hover {
+  color: white ;
+  text-decoration: none;
+  text-shadow:5px 5px 100px blue; 
+}
+
+
+
+#backgroundryu{width:1324px;
+	height: 2630px;
+	margin-left: 3px;
+	margin-top: 0px;
+	background: -webkit-linear-gradient( left top , black , blue, black, black, black);
+	background: -moz-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -o-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -ms-linear-gradient( bottom right , black , blue, black, black, black);}
+
+#background {
+	width:1324px;
+	height: 1830px;
+	margin-left: 3px;
+	margin-top: 0px;
+	background: -webkit-linear-gradient( left top , black , blue, black, black, black);
+	background: -moz-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -o-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -ms-linear-gradient( bottom right , black , blue, black, black, black);
+}
+
+#backgroundvideo {
+	width:1324px;
+	height: 1830px;
+	margin-left: 3px;
+	margin-top: 0px;
+	background: -webkit-linear-gradient( left top , black , blue, black, black, black);
+	background: -moz-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -o-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -ms-linear-gradient( bottom right , black , blue, black, black, black);
+}
+
+#backgroundtier {
+	width:1324px;
+	height: 2230px;
+	margin-left: 3px;
+	margin-top: 0px;
+	background: -webkit-linear-gradient( left top , black , blue, black, black, black);
+	background: -moz-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -o-linear-gradient( bottom right , black , blue, black, black, black);
+	background: -ms-linear-gradient( bottom right , black , blue, black, black, black);
+}
+
+
+
+body {
+	background-color:#111111;
+	color:#FFFFFF
+}
+
+
+#middleboxryu h4{
+	font-family: 'shock', sans-serif;
+	 color: #090909;
+	 font-style: italic;
+	 font-size: 38px;
+	 font-weight: ;
+	 text-shadow:5px 5px 10px white;
+	 margin-left: 280px;
+	 text-decoration: line-through;
+	 margin-top: 77px;
+}
+#middleboxakuma h4{
+	font-family: 'shock', sans-serif;
+	 color: #090909;
+	 font-style: italic;
+	 font-size: 38px;
+	 font-weight: ;
+	 text-shadow:5px 5px 10px white;
+	 margin-left: 280px;
+	 text-decoration: line-through;
+	 margin-top: 77px;
+}
+
+ h4{
+	font-family: 'aftermat', 'shockthick', sans-serif;
+	 color: #090909; 
+	 font-style: italic;
+	 font-size: 27px;
+	 font-weight: ;
+	 text-shadow:5px 5px 10px white;
+	 margin-left: 130px;
+	 margin-top: 290px;
+	 text-decoration: none;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+	 color: white;
+	 font-style: 600 ;
+	 font-size: 16px;
+	 font-weight:;
+	 text-shadow:5px 5px 10px #1B6590;
+	 margin-left: 25px;
+	 margin-top: 0px;
+	 
+}
+
+#middleboxindex p{
+	margin-top: -10px;
+}
+
+
+
+#middleboxmusic iframe{
+	margin-left: 70px;
+	margin-top: -13px;
+}
+
+
+ul{
+list-style-type: circle;
+}
+
+h2{
+font-family: 'shockthick','Trade Winds', cursive;
+	font-size:37px;
+	text-shadow:5px 5px 10px #3399FF;
+	color: white;
+	margin-left: 35px;
+	margin-top: -10px;
+	padding-top: 0px;
+	line-height: 50px;
+
+}
+
+
+#middleboxmusic h2{
+font-family: 'killer','Trade Winds', cursive;
+	font-size:40px;
+	text-shadow:5px 5px 10px #3399FF;
+	color: white;
+    padding-top: 0px;
+	line-height: 50px;
+	margin-top:90px; 
+	margin-left:240px
+
+}
+
+#middleboxtier h2{
+font-family: 'killer','Trade Winds', cursive;
+	font-size:40px;
+	text-shadow:5px 5px 10px #3399FF;
+	color: white;
+    padding-top: 0px;
+	line-height: 50px;
+	margin-top:90px; 
+	margin-left:240px
+
+}
+h5{
+	font-family: 'aftermat','shockthick','Trade Winds', cursive;
+	font-size:37px;
+	text-shadow:5px 5px 10px black;
+	color: white;
+	margin-left: 35px;
+	margin-top: -10px;
+	padding-top: 0px;
+	line-height: 50px;
+	color: #60A6FB;
+}
+
+
+h6{
+
+	font-family: 'shock', 'shockthick', 'Trade Winds', cursive;
+	font-size:190px;
+	text-shadow:5px 5px 10px black;;
+	margin-left: 0px;
+	margin-top: 15px;
+	padding-top: 0px;
+	line-height: 0px;
+
+}
+
+table{
+	margin-left: 90px;
+}
+
+#middleboxvideo iframe {
+	margin-left: 85px;
+	border-color: #084d4b;
+	margin-top: 0px;
+	border-width: 10px;
+}
+iframe{
+	margin-left: 50px;
+	margin-top: -120px;
+}
