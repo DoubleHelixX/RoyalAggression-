@@ -1,2 +1,7 @@
-# RoyalAggression-
-I had the idea of creating a fighting game website for a while now so naturally once I learned the skills to create such a thing I decided to do a sample site based on the theme "Fighting Game". It was also for a school project and in all actuality I done this site in 1 week. I stopped there because again its a sample site. A whole new site design might be a future project of mines with the same theme. Anyways hope you enjoy !
+# RoyalAggression
+
+About: A fighting game inspired/themed website I made for a school project. The idea was to create a simple site to display html/css skills. Being that I am a huge fighting game fanatic I went alittle overboard with it and tested out alot of javascript elements.
+
+Features: sound effects, html, javascript, css. 
+
+Side Note: I completed this within the span of 3 days and it was my first time creating a full on site.
